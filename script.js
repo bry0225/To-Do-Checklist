@@ -11,7 +11,7 @@ addTask.addEventListener('click', function(){
     paragraph.addEventListener('click', function(){
         paragraph.style.textDecoration = 'line-through'
     })
-    //double click to remove task
+    //double click to remove task.
     paragraph.addEventListener('dblclick', function(){
         toDoTask.removeChild(paragraph);
     })
